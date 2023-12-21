@@ -52,7 +52,7 @@ def visualize_graph_with_edges(graph, edges, title):
     plt.title(title)
     plt.show()
 
-# Updated Sample Graphs
+
 graph_1 = {
     'A': {'B': 2, 'C': 4, 'D': 3},
     'B': {'A': 2, 'C': 1, 'D': 4},
@@ -81,7 +81,7 @@ graph_4 = {
     'O': {'L': 1, 'M': 4, 'N': 2}
 }
 
-# Run Kruskal's algorithm on Updated Sample Graphs, print the resulting minimum spanning tree, and plot the graphs
+
 min_spanning_tree_1 = kruskal(graph_1)
 print("Minimum Spanning Tree - Sample Case 1:")
 print(min_spanning_tree_1)
